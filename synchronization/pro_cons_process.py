@@ -1,5 +1,5 @@
 #demo on using producer consumer to solve thread synchronization
-import queue #module queue includes lock for threads
+
 import multiprocessing as mp
 import time
 
