@@ -1,5 +1,6 @@
 #demo on how a reentrant or recursive lock may be used to
 #fix a data race issue
+#Rlock in pythohn must be released by the same thread that acquired it 
 import threading
 
 counter = 0
